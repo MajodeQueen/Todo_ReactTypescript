@@ -3,7 +3,7 @@ interface Props {
     todo:String;
     setTodo:React.Dispatch<React.SetStateAction<string>>;
 }
-const Inputfield:React.FC<Props> = ({todo ,setTodo}:Props) => {
+const Inputfield:React.FC<Props> = ({todo ,setTodo}) => {
   return (
     <div className=" flex items-center justify-center w-full pt-4">
       <div className=" relative  w-[40%] h-14 flex items-center">

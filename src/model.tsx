@@ -1,5 +1,5 @@
 export interface todo{
-    id:number;
+    id:string;
     todoItem:string;
     isDone:boolean;
 }
@@ -8,4 +8,11 @@ export type todoState ={
     Todos:todo[];
     
 }
+
+export interface UpdateTodo{
+    payload:todo
+    newName? :string
+}
+
+
 

@@ -7,7 +7,7 @@ interface Props {
 const Inputfield: React.FC<Props> = ({ addtodo, setAddTodo, handleSubmit }) => {
   return (
     <div className=" flex items-center justify-center w-full pt-4">
-      <div className=" relative  h-14 flex items-center mx-auto w-[50%] ">
+      <div className=" relative  h-14 flex items-center mx-auto w-[40%] ">
         <input
           value={addtodo}
           onChange={(e) => setAddTodo(e.target.value)}
